@@ -21,7 +21,7 @@ export default function Header() {
 				<span className='font-semibold text-2xl font-Poppins text-neutral-100 border-b-4 border-b-indigo-500 border-opacity-85'>
 					Jamie M.
 				</span>
-				<nav className='hidden md:flex flex-row items-center gap-10 text-transparent tracking-wider hnav z-50 bg-gradient-to-l from-neutral-600/70 to-neutral-600 bg-clip-text bg-gradient-size animate-gradientFlow'>
+				<nav className='hidden md:flex flex-row items-center gap-10 tracking-wider hnav z-50 text-neutral-400/80 bg-gradient-to-l from-neutral-400/80 to-neutral-950 bg-clip-text bg-gradient-size animate-gradientFlow'>
 					<Link href='#'>Projects</Link>
 					<Link href='#'>Services</Link>
 					<Link href='#'>About</Link>
