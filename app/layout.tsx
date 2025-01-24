@@ -11,8 +11,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" className="bg-neutral-800 !scroll-smooth">
+      <body className="h-full w-full">{children}</body>
     </html>
   );
 }
