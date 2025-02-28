@@ -22,10 +22,12 @@ import {
 	FaTrashAlt,
 	FaUserTie,
 	FaTableTennis,
+      FaShapes,
 } from 'react-icons/fa';
 import Link from 'next/link';
 import { JSX, useState } from 'react';
 import { FaChevronDown, FaF, FaFlutter, FaN, FaS, FaT, FaTableTennisPaddleBall, FaXmarksLines } from 'react-icons/fa6';
+import { VscRuby } from 'react-icons/vsc';
 
 type Experience = {
 	children: JSX.Element;
@@ -234,11 +236,11 @@ export default function Home() {
 								closely with local organizations and youth groups to
 								promote physical activity, create accessible
 								opportunities for participation, and inspire others to
-								lead healthy, active lifestyles
+								lead healthy, active lifestyles.
 							</span>
 						</div>
 					</div>
-                              <div className="relative w-[450px] h-[400px] mx-auto">
+                              <div className="relative w-[500px] h-[400px] mx-auto">
                                     <Image src={'/young-ambassador.jpg'} alt="highlife" fill className="rounded-xl" />
                               </div>
 				</div>
@@ -572,7 +574,7 @@ export default function Home() {
 										NextJS
 									</span>
 									<span className='flex gap-2 items-center'>
-										<FaXmarksLines className='size-5 text-red-500' />
+										<VscRuby className='size-5 text-red-500' />
 										EsLint
 									</span>
 									<span className='flex gap-2 items-center'>
