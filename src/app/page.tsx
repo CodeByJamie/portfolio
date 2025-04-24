@@ -386,22 +386,9 @@ export default function Home() {
 					<div className='text-zinc-400 text-lg leading-relaxed flex'>
 						<div className='w-1/2 flex flex-col gap-2'>
 							<h2 className='text-yellow-500 text-2xl font-semibold flex gap-3 items-baseline'>
-								Baymax APIs{' '}
+								Starbound{' '}
 								<span className='text-base text-zinc-50/60'>
 									Present (1 month)
-								</span>
-							</h2>
-							<ul className='list-disc pl-8'>
-								<li>Community Manager</li>
-								<li>Front End Developer</li>
-								<li>Lead Bot Developer</li>
-							</ul>
-						</div>
-						<div className='w-1/2 flex flex-col gap-2'>
-							<h2 className='text-yellow-500 text-2xl font-semibold flex gap-3 items-baseline'>
-								Regula{' '}
-								<span className='text-base text-zinc-50/60'>
-									Present (2 months)
 								</span>
 							</h2>
 							<ul className='list-disc pl-8'>
